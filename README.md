@@ -25,11 +25,11 @@ graph LR
     end
 
     subgraph "User Space (Off-Heap / Native)"
-        DirectBuf[Direct ByteBuffer<br/>(Circular Reuse)]
-        Hyperscan[Intel Hyperscan<br/>(JNI Binding)]
-        RingBuf[LMAX Disruptor<br/>(16k Slots)]
-        RuleEngine[RoaringBitmap<br/>(Logic)]
-        ActionBuf[Pre-serialized Cmd<br/>(DirectBuffer)]
+        DirectBuf[Direct ByteBuffer <br/> (Circular Reuse)]
+        Hyperscan[Intel Hyperscan <br/> (JNI Binding)]
+        RingBuf[LMAX Disruptor <br/> (16k Slots)]
+        RuleEngine[RoaringBitmap <br/> (Logic)]
+        ActionBuf[Pre-serialized Cmd <br/> (DirectBuffer)]
     end
 
     LogFile -- sys_read --> DirectBuf
