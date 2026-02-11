@@ -24,7 +24,7 @@ graph LR
         DockerSock[Docker Socket]
     end
 
-    subgraph User Space (Off-Heap / Native)
+    subgraph "User Space (Off-Heap / Native)"
         DirectBuf[Direct ByteBuffer<br/>(Circular Reuse)]
         Hyperscan[Intel Hyperscan<br/>(JNI Binding)]
         RingBuf[LMAX Disruptor<br/>(16k Slots)]
