@@ -15,6 +15,8 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
+---
+
 ```mermaid
 graph LR
     subgraph Kernel Space
