@@ -65,8 +65,8 @@ Java/Spring Boot 기반 백엔드 개발자입니다.
 
 > 모놀리식 콘서트 티켓팅·열차 예매를 단일 MSA로 통합 재설계한 고동시성 예매 플랫폼
 
-**기간**: 2026.05 ~ 2026.06 (약 5주) · 개인 프로젝트
-**GitHub**: [yunnhho/xrail-msa](https://github.com/yunnhho/xral-msa)
+- **기간**: 2026.05 ~ 2026.06 (약 5주) · 개인 프로젝트
+- **GitHub**: [yunnhho/xrail-msa](https://github.com/yunnhho/xral-msa)
 
 기존 두 모놀리식 프로젝트를 6개 마이크로서비스 + Gateway + Discovery 구조로 재설계하면서, 서비스 경계를 나누고 분산 트랜잭션의 일관성을 보장하는 아키텍처를 직접 설계해 볼 수 있었습니다. 특히 비트마스킹 좌석 점유와 Kafka Saga를 통해, 비즈니스 로직을 적절한 자료구조와 분산 패턴으로 풀어내는 경험을 했습니다.
 
@@ -90,10 +90,10 @@ Java/Spring Boot 기반 백엔드 개발자입니다.
 
 > AI/LLM 뉴스·기법을 자동 수집·요약·분류해 카드 형태로 제공하는 풀스택 큐레이션 플랫폼
 
-**기간**: 2026.05 ~ 2026.06 (약 3주) · 개인 프로젝트 
-**GitHub**: [yunnhho/AINews](https://github.com/yunnhho/AINews) 
-**배포 URL**: [AINews](https://ai-pulse-demo-nu.vercel.app) 
-**관리자(읽기전용)**: [AINews-Admin](https://ai-pulse-demo-nu.vercel.app/admin) 
+- **기간**: 2026.05 ~ 2026.06 (약 3주) · 개인 프로젝트 
+- **GitHub**: [yunnhho/AINews](https://github.com/yunnhho/AINews) 
+- **배포 URL**: [AINews](https://ai-pulse-demo-nu.vercel.app) 
+- **관리자(읽기전용)**: [AINews-Admin](https://ai-pulse-demo-nu.vercel.app/admin) 
 
 AI/LLM 뉴스·기법을 매일 4회 자동 수집하고 Claude API로 요약·번역·분류하여 카드로 제공하는 플랫폼입니다(웹 · 모바일 · 관리자 대시보드). LLM을 배치 파이프라인에 넣을 때의 비용 통제와 번역 품질 보증을, 무료 필터를 유료 단계 앞에 두는 원칙과 자동 품질 게이트로 풀어낸 경험을 했습니다.
 
