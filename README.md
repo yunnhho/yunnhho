@@ -92,7 +92,8 @@ Java/Spring Boot 기반 백엔드 개발자입니다.
 
 **기간**: 2026.05 ~ 2026.06 (약 3주) · 개인 프로젝트
 **GitHub**: [yunnhho/AINews](https://github.com/yunnhho/AINews)
-
+**배포 URL**: [AINews](https://ai-pulse-demo-nu.vercel.app)
+**관리자(읽기전용)**: [AINews-Admin](https://ai-pulse-demo-nu.vercel.app/admin)
 AI/LLM 뉴스·기법을 매일 4회 자동 수집하고 Claude API로 요약·번역·분류하여 카드로 제공하는 플랫폼입니다(웹 · 모바일 · 관리자 대시보드). LLM을 배치 파이프라인에 넣을 때의 비용 통제와 번역 품질 보증을, 무료 필터를 유료 단계 앞에 두는 원칙과 자동 품질 게이트로 풀어낸 경험을 했습니다.
 
 **주요 성과**
